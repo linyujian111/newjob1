@@ -1,0 +1,49 @@
+/* 
+* @Author: Marte
+* @Date:   2018-09-19 10:22:40
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-09-24 16:51:09
+*/
+.header .container{
+    width:906px;
+    height:80px;
+    margin:0 auto;
+     background-color:white;
+
+}
+
+.header{
+    width:100%;
+    height:80px;
+
+}
+.main{
+       border-top:1px solid red;
+       padding-bottom:80px;
+}
+.main .container{
+    width:906px;
+    height:400px;
+    margin:0 auto;
+ /*    background-color:red;*/
+     box-sizing:border-box;
+     padding:50px 250px;
+}
+
+.checkbox{
+    text-align:center;
+}
+
+button{
+    margin-top:10px;
+    width:355px;
+float:right;}
+/*}
+
+.main label{
+    display:block;
+    width:50px;
+    height:30px;
+    text-align:right;
+}*/
+

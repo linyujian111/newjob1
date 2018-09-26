@@ -1,0 +1,392 @@
+/* 
+* @Author: Marte
+* @Date:   2018-09-20 14:36:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-09-25 14:03:00
+*/
+.nav{
+    height:50px;
+    width:100%;
+    background-color:#f3a500;;
+}
+
+.nav .container{
+    height:50px;
+    /*background-color:yellow;*/
+}
+
+.nav li{
+    float:left;
+
+}
+
+.nav li a{
+    display:block;
+    width:100px;
+    height:50px;
+    padding:0 10px;
+    text-align:center;
+    line-height:50px;
+}
+
+.nowplace{
+    height:50px;
+    width:100%;
+    background-color:#ccc;;
+}
+
+.nowplace .container{
+    height:50px;
+    /*background-color:yellow;*/
+}
+.nowplace .container li{
+    float:left;
+}
+
+.nowplace .container li a{
+    display:block;
+    float:left;
+    height:50px;
+    margin:0 10px;
+    line-height:50px;
+}
+
+.nowplace .container li a:first-child{
+    margin-left:43px;
+}
+
+.content_m{
+margin-top:5px;
+}
+
+.content_m .container{
+    height:506px;
+    background-color:white;
+    border:1px solid black;
+}
+
+.content_m .container .boxl{
+    float:left;
+    width:400px;
+    height:100%;
+    overflow:hidden;
+    /*border:1px solid #ccc;*/
+    /*background-color:blue;*/
+    /*padding-left:10px;*/
+}
+
+.content_m .container .boxc{
+    float:left;
+
+    width:490px;
+    height:100%;
+    /*background-color:red;*/
+    padding:0 20px;
+}
+
+
+.content_m .container .boxr{
+    float:left;
+    width:270px;
+    height:100%;
+    /*background-color:pink;*/
+}
+.content_m .container .bigimg{
+    width:370px;
+    height:370px;
+    /*background-color:yellow;*/
+    margin:15px;
+    float:left;
+}
+
+.content_m .container .boxl .bigimg img{
+    width:370px;
+    width:370px;
+}
+
+.smimgall li{
+    box-sizing:border-box;
+    width:60px;
+    height:60px;
+    border:1px solid #ccc;
+    float:left;
+    margin:0 1px;
+    overflow:hidden;
+}
+
+.smimgall li img{
+    /*display:block;*/
+    width:60px;
+    height:60px;
+}
+
+.smimgall i{
+    margin:0 2px;
+    float:left;
+    display:block;
+    width:10px;
+    height:60px;
+    background-color:skyblue;
+    line-height:60px;
+}
+.erweima{
+    text-align:center;
+    width:120px;
+    height:115px;
+    font-size:14px;
+    position:absolute;
+    right:0;
+    top:5px;
+}
+.erweima img{
+    display:block;
+    width:80px;
+    height:80px;
+    margin:0 auto;
+}
+.erweima p{
+    line-height:20px;
+    height:20px;
+    margin-top:10px;
+}
+.boxc{
+    box-sizing:border-box;
+/*    padding-right:10px;*/
+    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
+}
+.boxc h1{
+    height:20px;
+    line-height:20px;
+    font-size:20px;
+    margin:25px 0 50px 10px;
+    color:blue;
+}
+
+.boxc_m{
+    width:100%;
+    height:115px;
+    /*background-color:pink;*/
+    position:relative;
+}
+.boxc_m .price{
+    float:left;
+}
+.boxc_m .show1{
+
+    font-size:30px;
+}
+
+.boxc_m .ruci{
+display:block;
+width:200px;
+height:30px;
+text-align:center;
+padding-top:20px;
+/*margin-top:20px;*/
+}
+
+.boxc .box1{
+    height:35px;
+    width:420px;
+    line-height:35px;
+    border-bottom:1px solid #ccc;
+    padding:5px 10px;
+
+}
+
+.boxc .box1:last-child button{
+    width:100px;
+    height:35px;
+}
+.boxc .box1:last-child{
+    height:35px;
+}
+
+.boxc .box1 .numc{
+    width:200px;
+    height:30px;
+}
+.boxc .box1 button{
+    width:50px;
+    height:35px;
+}
+.boxc .box1 .numc{
+    width:100px;
+    text-align:center;
+}
+.boxr{
+
+    box-sizing:border-box;
+    padding:20px;
+}
+.boxr h3{
+    padding-bottom:10px;
+    border-bottom:1px solid red;
+
+}
+
+.dianpu img{
+    width:230px;
+    height:100px;
+}
+.boxr h4{
+    margin:10px 0;
+    padding:0 0 10px 0;
+    border-bottom:1px solid red;
+
+}
+
+.boxr h4 .maijia{
+        color:blue;
+}
+.boxr .dianpu{
+    margin-top:20px;
+    width:230px;
+    height:100px;
+    /*background-color:blue;*/
+}
+
+
+/*.boxr .dianpu h4 .maijia{
+    color:blue;
+}*/
+
+
+.boxr .kuaidi>li{
+    width:100%;
+    height:30px;
+    margin-bottom:5px;
+    /*background-color:yellow;*/
+    line-height:30px;
+}
+
+.boxr .kuaidi>li img{
+    box-sizing:border-box;
+    margin-right:30px;
+    float:right;
+    display:block;
+    width:120px;
+    height:30px;
+    /*background-color:red;*/
+}
+.boxr .kuaidi button{
+    width:100px;
+    height:30px;
+}
+.biaoq{
+    padding-top:20px;
+}
+.biaoq a{
+    padding:2px;
+    border:1px solid black;
+}
+.section{
+    width:30px;
+    height:800px;
+    background-color:black;
+    position:fixed;
+    right:0;
+    top:0;
+
+}
+
+.section .smcar .car1{
+    display:block;
+    width:30px;
+    height:150px;
+    background-color:skyblue;
+    text-align:center;
+       /* margin:0 auto;
+*/        line-height:30px;
+        margin-top:100px;
+}
+.section .smcar .car2{
+    display:block;
+    width:30px;
+    height:30px;
+    background-color:red;
+    border-radius:50%;
+    text-align:center;
+        margin:0 auto;
+        line-height:30px;
+position:relative;
+left:0;
+top:-50px;
+}
+
+
+.carlist{
+    width:300px;
+    min-height:100px;
+    max-height:800px;
+    background-color:skyblue;
+    position:fixed;
+    right:25px;
+    top:100px;
+    margin:5px;
+    display:none;
+    overflow:auto;
+}
+.section:hover .carlist{display:block;}
+.carlist li{
+    width:500px;
+    height:80px;
+    margin-bottom:5px;
+}
+.carlist .tupian{
+    width:100px;
+    height:75px;
+
+}
+.carlist .tupian img{
+    display:block;
+    width:100px;
+    height:75px;
+}
+.carlist li .biaoti{
+    font-size:12px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    display:block;
+    width:200px;
+    height:25px;
+    line-height:25px;
+    background-color:white;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    text-align:left;
+}
+
+.carlist li .jiage{
+    font-size:12px;
+    display:block;
+    width:200px;
+    height:25px;
+    line-height:25px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    background-color:white;
+    text-align:left;
+}
+
+.carlist li .num{
+    font-size:12px;
+    display:block;
+    width:200px;
+    height:25px;
+    line-height:25px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    background-color:white;
+    text-align:left;
+}
+
+
+.carlist button{
+
+    width:300px;
+    height:50px;
+    line-height:50px;
+}

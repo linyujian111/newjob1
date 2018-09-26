@@ -1,0 +1,390 @@
+/* 
+* @Author: Marte
+* @Date:   2018-09-19 17:45:36
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-09-25 00:03:13
+*/
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.top1{
+    height:45px;
+    width:100%;
+    /*background-color:#37a0db;*/
+}
+.top1 .container{
+    /*background-color:#ccc;*/
+    height:100%;
+    margin:0 auto;
+    /*background-color:yellow;*/
+}
+
+.top1 .container p{
+    color:#4FA8E6;
+    line-height:45px;
+    font-size:14px;
+
+}
+
+.top2{
+/*    box-sizing:border-box;*/
+    height:62px;
+    width:100%;
+    margin:0 auto;
+    /*background-color:blue;*/
+/*    overflow:hidden;*/
+/*    margin-bottom:20px;*/
+}
+.top2 .container{
+    background-color:#ccc;
+}
+.top2 h4{
+            background-color:#ccc;
+    display:block;
+    width:100px;
+    height:62px;;
+
+    text-align:right;
+    line-height:62px;
+}
+.top2 .top2ul{
+     box-sizing:border-box;
+    width:1100px;
+    height:62px;
+ /*   border:1px solid #ccc;*/
+    padding:5px;
+    background-color:#ccc;
+}
+
+.top2 .top2ul li{
+    float:left;
+    width:100px;
+    height:50px;
+    border:1px solid #ccc;
+    margin-left:-1px;
+}
+
+.top2 .top2ul li:nth-child(1){
+    background:url("../img/logoc.jpg") no-repeat 0 0;
+}
+.top2 .top2ul li:nth-child(2){
+    background:url("../img/logoc.jpg") no-repeat -104px 0;
+}
+.top2 .top2ul li:nth-child(3){
+    background:url("../img/logoc.jpg") no-repeat -206px 0;
+}
+.top2 .top2ul li:nth-child(4){
+    background:url("../img/logoc.jpg") no-repeat -309px 0;
+}
+.top2 .top2ul li:nth-child(5){
+    background:url("../img/logoc.jpg") no-repeat -414px 0;
+}
+.top2 .top2ul li:nth-child(6){
+    background:url("../img/logoc.jpg") no-repeat -515px 0;
+}
+.top2 .top2ul li:nth-child(7){
+    background:url("../img/logoc.jpg") no-repeat -620px 0;
+}
+.top2 .top2ul li:nth-child(8){
+    background:url("../img/logoc.jpg") no-repeat -720px 0;
+}
+.top2 .top2ul li:nth-child(9){
+    background:url("../img/logoc.jpg") no-repeat -825px 0;
+}
+
+.top2ul{
+    text-align:right;
+    line-height:62px;
+}
+
+.top3{
+
+}
+.top3 .container{
+        height:50px;
+        margin-top:10px;
+    background-color:#ccc;
+}
+.top3 .container ul li{
+    float:left;
+    padding:0 20px;
+   /* margin:0 10px;*/
+    line-height:34px;
+    /*background-color:skyblue;*/
+    /*border:1px solid #ccc;*/
+    margin-left:-1px;
+    margin-top:10px;
+}
+.main.container{
+    /*overflow:hidden;*/
+    /*margin-left:5px;*/
+    height:1000px;
+    width:1200px;
+}
+.main1{
+    margin:-1px;
+    /*padding:-1px;*/
+    width:365px;
+    height:446px;
+    border:1px solid red;
+    position:relative;
+    margin-left:-10px;
+}
+
+.showboxl{
+    width:200px;
+    height:384px;
+    border-right:1px dashed red;
+    padding:20px;
+
+}
+.showboxl img{
+    width:200px;
+    height:200px;
+}
+
+.showboxl li{
+    float:left;
+    margin-right:5px;
+}
+.showboxl h4{
+    margin-top:10px;
+    color:#f6ab00;
+    line-height:20px;
+    font-size:14px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.showboxl p{
+    line-height:20px;
+    font-size:12px;
+/*    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;*/
+}
+
+.show1box p.show2{
+    height:40px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.showboxl .show3 span{
+    float:left;
+    display:block;
+    width:90px;
+    height:30px;
+    background-color:skyblue;
+    line-height:30px;
+    text-align:center;
+    margin-right:10px;
+    border-radius:5px;
+}
+.showboxl .show1box {
+    height:40px;
+    
+}
+.showboxl .show1 span{
+    margin-top:10px;
+    color:#f6ab00;
+    font-weight:bold;
+}
+.showboxl .show1 del{
+    font-size:12px;
+    color:gray;
+}
+
+.showboxl .simg{
+    width:200px;
+    height:40px;
+}
+.showboxl .simg img{
+    width:40px;
+    height:40px;
+    border:1px solid red;
+
+}
+
+
+/*.bigbox{
+    width:365px;
+    height:446px;
+    border:1px solid #ccc;
+}*/
+.showboxr{
+  /*float:right;*/
+  position:absolute;
+  right:0;
+  top:0;
+}
+.showboxr div{
+    width:60px;
+    height:60px;
+    border:1px solid #ccc;
+    margin:10px 25px 0 20px;;
+}
+
+.showboxr div img{
+    width:60px;
+    height:60px;
+}
+.showboxr div:hover{
+    border:1px solid red;
+}
+
+.showboxr .btn1{
+    height:15px;
+    line-height: 15px;
+    font-size:12px;
+    text-align:center;
+    border:1px solid skyblue;
+    background-color:skyblue;
+}
+.showboxr .btn2{
+    height:15px;
+    line-height: 15px;
+    font-size:12px;
+    text-align:center;
+    border:1px solid skyblue;
+    background-color:skyblue;
+}
+.main0{
+
+    width:220px;
+    height:410px;
+    overflow:hidden;
+    border:1px solid #ccc;
+    margin-right:18px;
+    margin-top:20px;
+
+}
+
+.main0:hover{
+
+    overflow:visible; 
+    /*border:0;*/
+
+
+}
+
+.main0:hover .main1{
+        border:3px solid red; 
+        position:relative;
+        left:9px;
+        top:0px;
+        background-color:white;
+        z-index:1;
+}
+
+.section{
+    width:30px;
+    height:800px;
+    background-color:black;
+    position:fixed;
+    right:0;
+    top:0;
+
+}
+
+.section .smcar .car1{
+    display:block;
+    width:30px;
+    height:150px;
+    background-color:skyblue;
+    text-align:center;
+       /* margin:0 auto;
+*/        line-height:30px;
+        margin-top:100px;
+}
+.section .smcar .car2{
+    display:block;
+    width:30px;
+    height:30px;
+    background-color:red;
+    border-radius:50%;
+    text-align:center;
+        margin:0 auto;
+        line-height:30px;
+position:relative;
+left:0;
+top:-50px;
+}
+
+
+.carlist{
+    width:300px;
+    min-height:100px;
+    max-height:800px;
+    background-color:skyblue;
+    position:fixed;
+    right:25px;
+    top:100px;
+    margin:5px;
+    display:none;
+    overflow:auto;
+}
+.section:hover .carlist{display:block;}
+.carlist li{
+    width:500px;
+    height:80px;
+    margin-bottom:5px;
+}
+.carlist .tupian{
+    width:100px;
+    height:75px;
+
+}
+.carlist .tupian img{
+    display:block;
+    width:100px;
+    height:75px;
+}
+.carlist li .biaoti{
+    font-size:12px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    display:block;
+    width:200px;
+    height:25px;
+    line-height:25px;
+    background-color:white;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.carlist li .jiage{
+    font-size:12px;
+    display:block;
+    width:200px;
+    height:25px;
+    line-height:25px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    background-color:white;
+    text-align:left;
+}
+
+.carlist li .num{
+    font-size:12px;
+    display:block;
+    width:200px;
+    height:25px;
+    line-height:25px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    background-color:white;
+    text-align:left;
+    
+}
+
+
+.carlist button{
+
+    width:300px;
+    height:50px;
+    line-height:50px;
+}

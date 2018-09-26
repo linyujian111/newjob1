@@ -1,0 +1,446 @@
+/*。。。。。。。。。。头部*/
+
+#login {
+  height: 30px;
+  background-color: #F5F5F5;
+}
+#login .l_l {
+  width: 600px;
+  height: 100%;
+  overflow: hidden;
+}
+#login .l_l li {
+  float: left;
+  padding: 0 7px;
+  font-size: 14px;
+  line-height: 30px;
+}
+#login .l_l li :nth-child(2) {
+  color: yellow;
+}
+#login .l_l li :nth-child(4) {
+  color: yellow;
+}
+#login .l_r {
+  width: 400px;
+  height: 100%;
+}
+#login .l_r em {
+  float: left;
+  line-height: 30px;
+  font-size: 14px;
+}
+#login .l_r li {
+  height: 30px;
+  padding: 0 8px;
+  float: left;
+  font-size: 12px;
+  line-height: 30px;
+  color: #37a0db;
+  position: relative;
+}
+#login .l_r li .show1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 160px;
+  height: 110px;
+  background-color: white;
+  border-radius: 5px;
+  display: none;
+  border: 1px solid #ccc;
+}
+#login .l_r li .show1 li {
+  height: 20px;
+  line-height: 20px;
+  width: 120px;
+  padding: 4px 20px;
+}
+#login .l_r li .show1 li:hover {
+  background-color: pink;
+}
+#login .l_r li:hover .show1 {
+  display: block;
+}
+#login .l_r li:hover a {
+  color: #ee7a25;
+}
+
+/*。。。。。。。。。。。。。。搜索栏*/
+
+#search {
+  height: 100px;
+  background-color: blue;
+}
+#search .se_l {
+  width: 280px;
+  height: 100%;
+  background-color: blue;
+  background: url("../img/logo.jpg") no-repeat;
+}
+#search .se_c {
+  width: 620px;
+  height: 100%;
+  background-color: white;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+#search .se_c .sec_t {
+  width: 100%;
+  height: 20px;
+}
+#search .se_c span {
+  display: block;
+  width: 46px;
+  height: 20px;
+  float: left;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  margin-left: 3px;
+}
+#search .se_c span:nth-child(1) {
+  background-color: #f6ab00;
+}
+#search .se_c span:nth-child(2) {
+  background-color: #37a0db;
+}
+#search .se_c input {
+  margin-top: 5px;
+  display: block;
+  width: 400px;
+  height: 30px;
+  border: 3px solid #37a0db;
+  float: left;
+}
+#search .se_c button {
+  margin-top: 5px;
+  width: 60px;
+  height: 30px;
+  background-color: #37a0db;
+  border-color: #37a0db;
+  float: left;
+}
+#search .se_c ul {
+  float: left;
+  margin-top: 5px;
+}
+#search .se_c ul li {
+  height: 25px;
+  line-height: 25px;
+  float: left;
+  text-align: center;
+}
+#search .se_c ul li a {
+  font-size: 12px;
+  color: gray;
+  padding: 0 10px;
+  border-right: 1px solid gray;
+}
+#search .se_c ul li:last-child a {
+  border-right: 0;
+}
+#search .se_c ul li:hover {
+  background-color: skyblue;
+  margin-left: -1px;
+  border-radius: 5px;
+}
+#search .se_c ul li:hover a {
+  color: blue;
+  border-right: 1px solid skyblue;
+  border-left: 1px solid skyblue;
+}
+#search .se_r {
+  width: 300px;
+  height: 100%;
+  background: white url("../img/tel.jpg") no-repeat;
+}
+/*...........................导航栏*/
+#nav .container {
+  height: 40px;
+}
+#nav .container .nav_l {
+  color: white;
+  width: 240px;
+  height: 40px;
+  background-color: #ff3f72;
+  text-align: center;
+  line-height: 40px;
+}
+#nav .container .nav_l .show1 {
+  box-sizing: border-box;
+  width: 240px;
+  height: 480px;
+  background-color: #ff5a85;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+#nav .container .nav_l .show1 li {
+  padding: 0 24px;
+  text-align: left;
+  height: 35px;
+  border-bottom: 1px dashed  white;
+  overflow: hidden;
+}
+#nav .container .nav_l .show1>li:hover {
+  background-color: white;
+}
+#nav .container .nav_l .show1>li:hover a {
+  /*background-color: white;*/
+  color: black;
+}
+#nav .container .nav_l .show1>li a {
+  font-size: 14px;
+  color: white;
+  display: block;
+  float: left;
+}
+#nav .container .nav_l .show1 li span {
+  display: block;
+  text-align: right;
+}
+#nav .container .nav_l .show1 li:hover .show2 {
+  display: block;
+}
+#nav .container .nav_l .show1 li .show2 {
+  width: 960px;
+  height: 480px;
+  background-color: yellow;
+  position: absolute;
+  left: 240px;
+  top: 0px;
+  display: none;
+}
+#nav .container .nav_l .show1 li .show2 .show2l {
+  width: 690px;
+  height: 100%;
+  background-color: white;
+}
+#nav .container .nav_c {
+  width: 960px;
+}
+#nav .container .nav_c li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 25px;
+  border-radius: 5px;
+}
+#nav .container .nav_c li a {
+  color: #555555;
+}
+#nav .container .nav_c li:hover {
+  background-color: skyblue;
+}
+#nav .container .nav_c li:hover a {
+  /*color: white;*/
+}
+#nav .container .show2l li{
+  height:40px;
+  width:690px;
+  line-height:40px;
+}
+#nav .container .show2l li h5{
+  width:40px;
+  height:40px;
+}
+#nav .container .show2l li a{
+  font-size:20px;
+  width:50px;
+  height:40px;
+  border-right:1px solid #ccc;
+}
+
+/*...........................轮播*/
+
+#row_list {
+  height: 270px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+#row_list #row_list1 {
+  overflow: hidden;
+}
+#row_list #row_list1 li {
+  width: 235px;
+  height: 140px;
+  background-color: pink;
+  float: left;
+  margin-right: 5px;
+}
+#row_list #row_list1 li:nth-child(1) {
+  margin-left: 3px;
+}
+#row_list #row_list1 li:last-child {
+  margin-right: 0;
+}
+#row_list #row_list1 li img {
+  display: block;
+  width: 235px;
+  height: 140px;
+}
+
+#row_list2 {
+  height: 120px;
+  margin-top: 10px;
+  background-color: red;
+  overflow: hidden;
+}
+#row_list2 img {
+  width: 100%;
+  height: 120px;
+}
+
+#pinp {
+  overflow: hidden;
+}
+#pinp .pinp_t {
+  height: 80px;
+  background-color: yellow;
+}
+#pinp .pinp_c {
+  height: 440px;
+  background-color: #bcbcbc;
+}
+#pinp .pinp_c li {
+  width: 400px;
+  height: 220px;
+  float: left;
+  background-color: pink;
+}
+#pinp .pinp_c li img {
+  display: block;
+}
+#pinp .pinp_b {
+  width: 1200px;
+  height: 600px;
+  border-top: 1px solid #ccc;
+  position: relative;
+}
+#pinp .pinp_b .tuijian {
+  height: 50px;
+  background-color: white;
+}
+#pinp .pinp_b .tuijian span {
+  font-size: 18px;
+  line-height: 50px;
+}
+#pinp .pinp_b .Pmain {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 400px;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin-left: 1px;
+}
+#pinp .pinp_b .Pmain .pinl {
+  float: left;
+  box-sizing: border-box;
+  width: 320px;
+  height: 400px;
+  border: 1px solid #ccc;
+  background-color: red;
+  overflow: hidden;
+}
+#pinp .pinp_b .Pmain .pinc {
+  float: left;
+  box-sizing: border-box;
+  width: 660px;
+  height: 400px;
+}
+#pinp .pinp_b .Pmain .boxsm {
+  width: 130px;
+  height: 79px;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+}
+#pinp .pinp_b .Pmain .pinr {
+  float: left;
+  box-sizing: border-box;
+  width: 217px;
+  height: 400px;
+  background-color: pink;
+}
+#pinp .pinp_b .Pmain .pinr div:nth-child(1) {
+  box-sizing: border-box;
+  width: 217px;
+  height: 240px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: red;
+}
+#pinp .pinp_b .Pmain .pinr div:nth-child(2) {
+  box-sizing: border-box;
+  width: 217px;
+  height: 160px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: blue;
+}
+#pinp .pinb {
+  width: 1200px;
+  height: 120px;
+  margin-top: 10px;
+}
+
+.floor001 {
+  height: 680px;
+}
+.floor001 .container .floor_t {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
+}
+.floor001 .container .floor_c {
+  width: 100%;
+  height: 500px;
+}
+.floor001 .container .floor_c .floor_cl .b1_t {
+  width: 320px;
+  height: 300px;
+}
+.floor001 .container .floor_c .floor_cl .b1_b {
+  width: 320px;
+  height: 200px;
+  background-color: #f9d6ec;
+  box-sizing: border-box;
+  padding: 25px 60px;
+}
+.floor001 .container .floor_c .floor_cl .b1_b li {
+  width: 100px;
+  height: 30px;
+  float: left;
+  text-align: center;
+}
+.floor001 .container .floor_c .floor_cr {
+  width: 880px;
+  height: 500px;
+  height: 100%;
+  background-color: blue;
+  float: left;
+}
+.floor001 .container .floor_c .floor_cr li {
+  float: left;
+  width: 220px;
+  height: 250px;
+  background-color: yellow;
+}
+.floor001 .container .floor_c .floor_cr li:nth-child(2) {
+  width: 440px;
+}
+.floor001 .container .floor_b {
+  margin-top: 10px;
+  width: 100%;
+  height: 120px;
+  background-color: red;
+}
+
+/*# sourceMappingURL=index.css.map */

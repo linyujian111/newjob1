@@ -1,0 +1,13 @@
+/* 
+* @Author: Marte
+* @Date:   2018-09-14 16:39:06
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-09-15 15:15:16
+*/
+*{margin:0;padding:0;}
+ul li{list-style:none;}
+a{text-decoration:none;}
+.container{width:1200px;margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+
